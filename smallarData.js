@@ -1,7 +1,7 @@
 function minInarray(numbers){
     console.log('array insite the array', numbers);
     let smollar = numbers[0];
-    for(let i =0; i < numbers.length; i++){
+    for(let i =words.length-1; i < numbers.length; i++){
         const index = i;
         const element = numbers[index];
         console.log(element);
