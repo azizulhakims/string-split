@@ -16,3 +16,27 @@ if( gap<5){
 else{
     console.log('yes you can not friend')
 }
+
+
+const number = 2.34342
+
+const fullNumber = Math.round(number);
+
+console.log(fullNumber);
+
+const result2 = Math.ceil(2.00001);
+console.log(result2);
+const result3 = Math.floor(2.00001);
+console.log(result3);
+
+
+// Rendom
+
+// console.log(Math.random());
+
+for(let i=0; i<20; i++){
+    const random = Math.round(Math.random()*6);
+    console.log(random);
+}
+
+
