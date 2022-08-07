@@ -18,3 +18,4 @@ const heights = [167, 190, 120, 165, 137];
 
 const tallest = maxInarray(heights);
 console.log('tallest persone is: ',tallest);
+
